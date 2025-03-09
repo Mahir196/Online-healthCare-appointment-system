@@ -5,9 +5,9 @@
 <body bgcolor="#D8D8D8 ">
 <center>
 <h2>Doctor Information</h2>
-<!-- Single Form -->
-<form method="POST">
-    <table>
+
+<form action="doctor.php" method="POST">
+    <table cellpadding="7" cellspacing="0">
         <!-- Full Name -->
         <tr>
             <td><label for="fullName">Full Name:</label></td>
@@ -90,11 +90,11 @@
         </tr>
     </table>
 
-    <a href="Login.php" style="text-decoration: none;">
+    <a href="Login.php">
         <button type="button">Back</button>
     </a>
     <!-- Next Button -->
-    <input type="submit" formaction="doctor.php" value="Next">
+    <input type="submit"  value="Next">
 </form>
 </center>
 </body>
