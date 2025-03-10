@@ -4,7 +4,11 @@
 </head>
 <body bgcolor="#D8D8D8 ">
 <center>
-<h2>Doctor Information</h2>
+<h1>Doctor Information</h1>
+<br>
+<br>
+<br>
+<br>
 
 <form action="doctor.php" method="POST">
     <table cellpadding="7" cellspacing="0">
@@ -83,18 +87,16 @@
             <td><label for="additionalInfo">Additional Information:</label></td>
             <td><textarea id="additionalInfo" name="additionalInfo" rows="4" cols="30" placeholder="Any additional details"></textarea></td>
         </tr>
+        <!-- Button -->
         <tr>
-          <td colspan="2">
-            <br><br> 
+          <td colspan="2" align="center"><br>
+            <input type="submit"  value="Submit">
+            <input type="reset"  value="Clear">
           </td>
         </tr>
     </table>
 
-    <a href="Login.php">
-        <button type="button">Back</button>
-    </a>
-    <!-- Next Button -->
-    <input type="submit"  value="Next">
+    
 </form>
 </center>
 </body>
